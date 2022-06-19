@@ -1,0 +1,5 @@
+<div class="container-auth">
+    <app-auth-step1 *ngIf="step === 1" (event)="handeleSubmit()"></app-auth-step1>
+    <app-auth-step2 *ngIf="step === 2"></app-auth-step2>
+    <app-error *ngIf="step === 3" (click)="handleBack()"></app-error>
+</div>

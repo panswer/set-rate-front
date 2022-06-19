@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* 
+        Colors
+    */
+    /* Primary */
+    --primary-color-orange: hsl(25, 97%, 53%);
+    /* Neutral */
+    --neutral-color-white: hsl(0, 0%, 100%);
+    --neutral-color-light-grey: hsl(217, 12%, 63%);
+    --neutral-color-medium-gray: hsl(216, 12%, 54%);
+    --neutral-color-medium-gray-transparent: hsla(216, 12%, 54%, .1);
+    --neutral-color-dark-blue: hsl(213, 19%, 18%);
+    --neutral-color-very-dark-blue: hsl(216, 12%, 8%);
+    /* 
+        Font
+    */
+    /* Font size */
+    --font-size-base: 15px;
+    /* Font weight */
+    --font-weight-1: 400;
+    --font-weight-2: 700;
+}
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('/assets/font/Overpass-VariableFont_wght.ttf');
+}

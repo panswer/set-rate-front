@@ -1,0 +1,10 @@
+.container-auth {
+    height: 20rem;
+    width: 18.5rem;
+    background-color: var(--neutral-color-dark-blue);
+    border-radius: 15px;
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-base);
+    padding: 1.25rem;
+    font-weight: var(--font-weight-1);
+}

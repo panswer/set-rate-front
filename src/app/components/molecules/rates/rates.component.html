@@ -1,0 +1,6 @@
+<form class="form-rate" (submit)="handleSubmit($event)">
+    <div class="container-rate">
+        <app-icon-num *ngFor="let num of ratesValue" [value]="num"></app-icon-num>
+    </div>
+    <button class="btn">Submit</button>
+</form>

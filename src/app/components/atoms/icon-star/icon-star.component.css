@@ -1,0 +1,14 @@
+.content-icon {
+    background-color: var(--neutral-color-medium-gray-transparent);
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content-icon>.icon {
+    opacity: 1;
+}

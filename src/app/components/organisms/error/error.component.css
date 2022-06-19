@@ -1,0 +1,38 @@
+.container-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.container-error>h2 {
+    color: white;
+}
+
+.container-error>p {
+    color: var(--neutral-color-light-grey);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container-error>.btn {
+    background-color: var(--primary-color-orange);
+    padding: 1rem;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    font-weight: var( --font-weight-2);
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+    width: 95%;
+    justify-self: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.container-error>.btn:hover {
+    background-color: white;
+    color: var(--primary-color-orange);
+}

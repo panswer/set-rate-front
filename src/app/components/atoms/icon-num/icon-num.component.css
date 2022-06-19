@@ -1,0 +1,25 @@
+.container-num {
+    background-color: var(--neutral-color-medium-gray-transparent);
+    border-radius: 50%;
+    height: 2rem;
+    width: 2.5rem;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: .5rem;
+    cursor: pointer;
+}
+
+.container-num:hover {
+    color: white;
+    background-color: var(--primary-color-orange);
+}
+
+.radio-rate {
+    display: none;
+}
+
+.radio-rate:checked+.container-num {
+    background-color: var(--neutral-color-medium-gray);
+    color: white;
+}

@@ -1,0 +1,9 @@
+.content-result {
+    background-color: var( --neutral-color-medium-gray-transparent);
+    color: var(--primary-color-orange);
+    text-align: center;
+    border-radius: 25px;
+    padding: .5rem 0;
+    width: 12rem;
+    margin: 1rem auto 0;
+}

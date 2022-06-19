@@ -1,0 +1,14 @@
+.container-step-1 {
+    color: var(--neutral-color-medium-gray);
+}
+
+.container-step-1 h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-2);
+    margin-top: 1rem;
+}
+
+.container-step-1 p {
+    margin-top: 1rem;
+}
